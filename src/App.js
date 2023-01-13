@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Footer from './components/footer';
+
 function App() {
   return (
     <div className="App">
@@ -15,9 +17,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          NT 
         </a>
       </header>
+      <Footer />
     </div>
   );
 }
