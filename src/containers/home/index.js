@@ -1,11 +1,11 @@
-import Home from 'home';
+import './App.css';
 
+function App() {
+  return (
+    <div className="App">
+        <h1>home</h1>
+    </div>
+  );
+}
 
-function index() {
-    return (
-      <Home />
-    );
-  }
-  
-  export default index;
-  
+export default App;
