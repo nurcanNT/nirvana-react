@@ -1,9 +1,10 @@
+import img1 from "../../img/11.png";
 function HomeTitle (){
     return(
         <section className="home" id="home">
 
     <div className="image">
-        <img src="img/11.png" alt=""/>
+        <img src={img1} alt=""/>
     </div>
 
     <div className="content">

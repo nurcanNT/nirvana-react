@@ -1,3 +1,4 @@
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 function Location (){
     return(
         <>
@@ -9,10 +10,10 @@ function Location (){
         <a href="#" className="logo"> <i className="fas fa-shopping-basket"></i>Nirvanna</a>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus vitae, id dolor exercitationem unde non, quae quidem facilis dolores mollitia accusantium aliquid voluptatibus magni ducimus qui.</p>
         <div className="share">
-            <a href="#" className="btn fab fa-facebook-f"></a>
-            <a href="#" className="btn fab fa-twitter"></a>
-            <a href="#" className="btn fab fa-instagram"></a>
-            <a href="#" className="btn fab fa-linkedin"></a>
+            <a href="#" className="btn fab fa-facebook-f"> <FaFacebook/></a>
+            <a href="#" className="btn fab fa-twitter"> <FaTwitter/></a>
+            <a href="#" className="btn fab fa-instagram"> <FaInstagram/></a>
+            <a href="#" className="btn fab fa-linkedin"> <FaLinkedinIn/></a>
         </div>
     </div>
  
