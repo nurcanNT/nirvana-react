@@ -1,17 +1,18 @@
+import { FaShoppingBasket, FaSearch, FaBars, FaShoppingCart, FaHeart, FaUserCircle } from "react-icons/fa";
 
 function Header() {
     return (
       <>
       <div className="header-1">
-            <a href="#" className="logo"><i className="fas fa-shopping-basket"></i>nirvanna</a>
+            <a href="#" className="logo"> <span><FaShoppingBasket/></span> nirvanna</a>
             <form action="" className="search-box-container">
                 <input type="search" id="search-box" placeholder="search here..." />
-                    <label htmlFor="search-box" className="fas fa-search"></label>
+                    <label htmlFor="search-box" className= "fas fa-search"> <FaSearch/></label>
           </form>
         </div><div className="header-2">
   
-                <div id="menu-bar" className="fas fa-bars"></div>
-                <nav className="navbar">,
+                <div id="menu-bar" className= <FaBars/> ></div>
+                <nav className="navbar">
                     <a href="#home">Home</a>
                     <a href="#category">Category</a>
                     <a href="#product">Product</a>
@@ -20,9 +21,9 @@ function Header() {
                 </nav>
   
                 <div className="icons">
-                    <a href="#" className="fas fa-shopping-cart"></a>
-                    <a href="#" className="fas fa-heart"></a>
-                    <a href="#" className="fas fa-user-circle"></a>
+                    <a href="#" className="fas fa-shoppingCart" > <FaShoppingCart/></a>
+                    <a href="#" className="fas fa-heart"> <FaHeart/></a>
+                    <a href="#" className="fas fa-user-circle"> <FaUserCircle/></a>
                 </div>
             </div>
      </>
@@ -30,4 +31,6 @@ function Header() {
   }
   
   export default Header;
+
+
   

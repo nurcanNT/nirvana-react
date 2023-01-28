@@ -1,3 +1,4 @@
+import {FaHeart, FaShare, FaEye, FaStar, FaStarHalfAlt} from "react-icons/fa"
 import OrganicTea from "./OrganicTea";
 
 function Product () {
@@ -11,18 +12,18 @@ function Product () {
         <div className="box">
             <span className="discount">-33%</span>
             <div className="icons">
-                <a href="#" className="fas fa-heart"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-eye"></a>
+                <a href="#" className="fas fa-heart"> <FaHeart/></a>
+                <a href="#" className="fas fa-share"> <FaShare/></a>
+                <a href="#" className="fas fa-eye"> <FaEye/></a>
             </div>
             <img src="img/1.png" alt=""/>
             <h3>Organic Avocado</h3>
             <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star-half-alt"> <FaStarHalfAlt/></i>
             </div>
             <div className="price"> $10.50 <span>$13.20</span>
             <div className="quantity">
@@ -36,18 +37,18 @@ function Product () {
         <div className="box">
             <span className="discount">-33%</span>
             <div className="icons">
-                <a href="#" className="fas fa-heart"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-eye"></a>
+                <a href="#" className="fas fa-heart"> <FaHeart/></a>
+                <a href="#" className="fas fa-share"> <FaShare/></a>
+                <a href="#" className="fas fa-eye"> <FaEye/></a>
             </div>
-            <img src="img/2.png" alt=""/>
-            <h3>Organic Banana</h3>
+            <img src="img/1.png" alt=""/>
+            <h3>Organic Avocado</h3>
             <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star-half-alt"> <FaStarHalfAlt/></i>
             </div>
             <div className="price"> $10.50 <span>$13.20</span>
             <div className="quantity">
@@ -61,18 +62,18 @@ function Product () {
         <div className="box">
             <span className="discount">-33%</span>
             <div className="icons">
-                <a href="#" className="fas fa-heart"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-eye"></a>
+                <a href="#" className="fas fa-heart"> <FaHeart/></a>
+                <a href="#" className="fas fa-share"> <FaShare/></a>
+                <a href="#" className="fas fa-eye"> <FaEye/></a>
             </div>
-            <img src="img/3.png" alt=""/>
-            <h3>Organic Cherry</h3>
+            <img src="img/1.png" alt=""/>
+            <h3>Organic Avocado</h3>
             <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star-half-alt"> <FaStarHalfAlt/></i>
             </div>
             <div className="price"> $10.50 <span>$13.20</span>
             <div className="quantity">
@@ -86,18 +87,18 @@ function Product () {
         <div className="box">
             <span className="discount">-33%</span>
             <div className="icons">
-                <a href="#" className="fas fa-heart"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-eye"></a>
+                <a href="#" className="fas fa-heart"> <FaHeart/></a>
+                <a href="#" className="fas fa-share"> <FaShare/></a>
+                <a href="#" className="fas fa-eye"> <FaEye/></a>
             </div>
-            <img src="img/4.png" alt=""/>
-            <h3>Organic Mulberry</h3>
+            <img src="img/1.png" alt=""/>
+            <h3>Organic Avocado</h3>
             <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star-half-alt"> <FaStarHalfAlt/></i>
             </div>
             <div className="price"> $10.50 <span>$13.20</span>
             <div className="quantity">
@@ -109,22 +110,22 @@ function Product () {
             </div>
         </div>
         <div className="box">
-            <span className="discount">-53%</span>
+            <span className="discount">-33%</span>
             <div className="icons">
-                <a href="#" className="fas fa-heart"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-eye"></a>
+                <a href="#" className="fas fa-heart"> <FaHeart/></a>
+                <a href="#" className="fas fa-share"> <FaShare/></a>
+                <a href="#" className="fas fa-eye"> <FaEye/></a>
             </div>
-            <img src="img/5.png" alt=""/>
-            <h3>Organic Date</h3>
+            <img src="img/1.png" alt=""/>
+            <h3>Organic Avocado</h3>
             <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star-half-alt"> <FaStarHalfAlt/></i>
             </div>
-            <div className="price"> $10.50 <span>$15.20</span>
+            <div className="price"> $10.50 <span>$13.20</span>
             <div className="quantity">
                 <span>Quantity :</span>
                 <input type="number" min="1" max="1000" value="1"/>
@@ -136,20 +137,20 @@ function Product () {
         <div className="box">
             <span className="discount">-33%</span>
             <div className="icons">
-                <a href="#" className="fas fa-heart"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-eye"></a>
+                <a href="#" className="fas fa-heart"> <FaHeart/></a>
+                <a href="#" className="fas fa-share"> <FaShare/></a>
+                <a href="#" className="fas fa-eye"> <FaEye/></a>
             </div>
-            <img src="img/6.png" alt=""/>
-            <h3>Organic Pineapple</h3>
+            <img src="img/1.png" alt=""/>
+            <h3>Organic Avocado</h3>
             <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star-half-alt"> <FaStarHalfAlt/></i>
             </div>
-            <div className="price"> $10.50 <span>$14.20</span>
+            <div className="price"> $10.50 <span>$13.20</span>
             <div className="quantity">
                 <span>Quantity :</span>
                 <input type="number" min="1" max="1000" value="1"/>
@@ -159,22 +160,22 @@ function Product () {
             </div>
         </div>
         <div className="box">
-            <span className="discount">-43%</span>
+            <span className="discount">-33%</span>
             <div className="icons">
-                <a href="#" className="fas fa-heart"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-eye"></a>
+                <a href="#" className="fas fa-heart"> <FaHeart/></a>
+                <a href="#" className="fas fa-share"> <FaShare/></a>
+                <a href="#" className="fas fa-eye"> <FaEye/></a>
             </div>
-            <img src="img/7.png" alt=""/>
-            <h3>Organic Kiwi</h3>
+            <img src="img/1.png" alt=""/>
+            <h3>Organic Avocado</h3>
             <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star-half-alt"> <FaStarHalfAlt/></i>
             </div>
-            <div className="price"> $10.50 <span>$17.20</span>
+            <div className="price"> $10.50 <span>$13.20</span>
             <div className="quantity">
                 <span>Quantity :</span>
                 <input type="number" min="1" max="1000" value="1"/>
@@ -184,22 +185,22 @@ function Product () {
             </div>
         </div>
         <div className="box">
-            <span className="discount">-13%</span>
+            <span className="discount">-33%</span>
             <div className="icons">
-                <a href="#" className="fas fa-heart"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-eye"></a>
+                <a href="#" className="fas fa-heart"> <FaHeart/></a>
+                <a href="#" className="fas fa-share"> <FaShare/></a>
+                <a href="#" className="fas fa-eye"> <FaEye/></a>
             </div>
-            <img src="img/8.png" alt=""/>
-            <h3>Organic Orange</h3>
+            <img src="img/1.png" alt=""/>
+            <h3>Organic Avocado</h3>
             <div className="stars">
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star-half-alt"></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star"> <FaStar/></i>
+                <i className="fas fa-star-half-alt"> <FaStarHalfAlt/></i>
             </div>
-            <div className="price"> $10.50 <span>$10.20</span>
+            <div className="price"> $10.50 <span>$13.20</span>
             <div className="quantity">
                 <span>Quantity :</span>
                 <input type="number" min="1" max="1000" value="1"/>

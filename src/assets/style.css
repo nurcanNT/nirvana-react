@@ -71,6 +71,7 @@ section{
    text-decoration: none;
 }
 
+
 .logo i{
    padding-right: .5rem;
    color: var(--green);
@@ -95,7 +96,7 @@ section{
    height: 100%;
    width: 8rem;
    font-size: 2.5rem;
-   line-height: 5rem;
+   line-height: 6rem;
    color: #fff;
    background: var(--green);
    text-align: center;
@@ -139,6 +140,7 @@ section{
    font-size: 3rem;
    color: var(--black);
    padding-left: 1rem;
+   text-decoration: none;
 }
 .header-2 .icons a:hover{
    color: var(--green);
@@ -499,7 +501,7 @@ section{
    padding: 0;
    height: 4rem;
    width: 4rem;
-   line-height: 4rem;
+   line-height: 5rem;
    text-align: center;
 }
 
