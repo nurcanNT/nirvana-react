@@ -4,21 +4,21 @@ import { FaHeart, FaShare, FaEye, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import ProductRatings from "../ProductList/ProductRatings";
 import FavoriteButton from "../favorites/FavoriteButton";
 
-export default function OrganicTea() {
+export default function OrganicShampo() {
   const [data, setData] = useState([]);
   useEffect(() => {
     Axios.get(
-      "https://cheapprice.siten.co/api/productView?category=organic-tea"
+      " https://cheapprice.siten.co/api/amazonSearch?q=organic%20shampoo"
     )
       .then((res) => {
         console.log("res", res);
-        setData(res.data.data.productList);
+        setData(res.data.amazonProductList);
       })
       .catch((err) => console.log(err));
   }, []);
 
   useEffect(() => {
-    console.log("DATA:", data);
+    console.log("DataShampo", data);
   }, [data]);
 
   return (
@@ -30,7 +30,7 @@ export default function OrganicTea() {
               <div>
                 <div key={index} className="box">
                   <div className="icons">
-                  <FavoriteButton id={index} productData={element} />
+                    <FavoriteButton id={index} productData={element} />
                     <a href="#" className="fas fa-share">
                       {" "}
                       <FaShare />
@@ -40,7 +40,7 @@ export default function OrganicTea() {
                       <FaEye />
                     </a>
                   </div>
-                  <img src={element.ThumbImageUrl} alt="" />
+                  <img src={element.ImageUrl} alt="" />
                   <h3>{element.Title}</h3>
                   <div className="stars">
                     <ProductRatings rating={element.Rating} />

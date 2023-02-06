@@ -22,7 +22,7 @@ function Header() {
   
                 <div className="icons">
                     <a href="#" className="fas fa-shoppingCart" > <FaShoppingCart/></a>
-                    <a href="#" className="fas fa-heart"> <FaHeart/></a>
+                    <a href="#heart" className="fas fa-heart"> <FaHeart/></a>
                     <a href="#" className="fas fa-user-circle"> <FaUserCircle/></a>
                 </div>
             </div>
