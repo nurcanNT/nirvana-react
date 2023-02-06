@@ -233,6 +233,8 @@ section{
 }*/
  #category{
    display: block;
+   width: 185rem;
+
  }
 .category .box-container .box{   /*????*/
    border: 0.2rem solid rgba(0, 0, 0, .1);
@@ -314,6 +316,7 @@ section{
    background: var(--green);
    color: #fff;
 }
+
 
 .product .box-container .box h3{
    color: var(--black);
@@ -447,6 +450,20 @@ section{
    resize: none;
    width: 100%;
 }
+
+.heart .heading-3 {
+   text-align: center;
+   padding: 5rem;
+   border: 0.7rem solid rgba(9, 173, 31, 0.685);
+   color: var(--black);
+    text-transform: uppercase;
+    font-size: 4rem;
+    padding-bottom: 3.5rem;
+    margin: 5rem;
+    background-color:#5cad7e;
+}
+
+ 
 
 .newsletter{
    background: url(../src/) no-repeat;
@@ -691,5 +708,17 @@ body{
    }
    .newsletter form input .btn{
        padding: 2rem 3rem;
+   }
+}
+
+@media(max-width:1280px){
+   #category{
+      width: 140rem;
+   }
+}
+
+@media(max-width:415px){
+   #category{
+      width: 47rem;
    }
 }
