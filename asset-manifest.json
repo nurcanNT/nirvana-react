@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nirvana-react/static/css/main.3e2b73cd.css",
+    "main.js": "/nirvana-react/static/js/main.f21e29d7.js",
+    "static/js/787.21f81c8f.chunk.js": "/nirvana-react/static/js/787.21f81c8f.chunk.js",
+    "static/media/13.png": "/nirvana-react/static/media/13.6d7e0b263c15a9bd9a48.png",
+    "static/media/organic.png": "/nirvana-react/static/media/organic.09f97f0515fc5442e163.png",
+    "static/media/111.png": "/nirvana-react/static/media/111.63abe37fa360f93bebc0.png",
+    "static/media/11.png": "/nirvana-react/static/media/11.405b5dec38d36246a203.png",
+    "static/media/19.png": "/nirvana-react/static/media/19.d07fbb1a9208dc2c0d7d.png",
+    "static/media/15.png": "/nirvana-react/static/media/15.d979186229f51826e9eb.png",
+    "static/media/14.png": "/nirvana-react/static/media/14.34b834aaa5159476eabc.png",
+    "static/media/12.png": "/nirvana-react/static/media/12.16d32a9b1febfea710d9.png",
+    "index.html": "/nirvana-react/index.html",
+    "static/media/index.js": "/nirvana-react/static/media/index.f9ac19be921da9f14331.js",
+    "main.3e2b73cd.css.map": "/nirvana-react/static/css/main.3e2b73cd.css.map",
+    "main.f21e29d7.js.map": "/nirvana-react/static/js/main.f21e29d7.js.map",
+    "787.21f81c8f.chunk.js.map": "/nirvana-react/static/js/787.21f81c8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e2b73cd.css",
+    "static/js/main.f21e29d7.js"
+  ]
+}
