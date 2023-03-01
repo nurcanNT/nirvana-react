@@ -1,3 +1,25 @@
+# nirvanna 🛍
+
+This work is an e-commerce site work
+
+# What was done in this study?
+
+* Organic product theme applied
+* Component structure has been improved
+* Data was pulled from API with Axios
+* used useState and useEffect
+* Key value control is provided by using localstorage in add to favorites remove operation
+
+# Images from this work :
+
+![image](https://user-images.githubusercontent.com/105509750/216918890-7713f953-7487-42f4-9dfc-8bb66ba46598.png)
+
+![image](https://user-images.githubusercontent.com/105509750/216918993-f2bd6320-95b5-456c-9aff-ac477702decc.png)
+
+![image](https://user-images.githubusercontent.com/105509750/216919099-a1c0b0ec-34b7-49cd-9c59-394bfdd43077.png)
+
+![image](https://user-images.githubusercontent.com/105509750/216919255-b01709de-f9a4-4a26-8048-6d6df51095a0.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
