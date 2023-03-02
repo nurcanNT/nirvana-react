@@ -187,12 +187,23 @@ section{
    flex-wrap: wrap;
    gap: 1.5rem;
 }
-
 .banner-container .banner{
    flex: 1 1 40rem;
    height: 25rem;
    overflow: hidden;
    position: relative;
+}
+
+.banner-container .banner2{
+   flex: 1 1 40rem;
+   height: 40rem;
+   overflow: hidden;
+   position: relative;
+}
+.banner-container .banner2 img{
+   height: 90%;
+   width: 100%;
+   object-fit: cover;
 }
 
 .banner-container .banner img{
@@ -260,11 +271,21 @@ section{
    display: block;
 }
 
+.card-title{
+   padding: 5%;
+   white-space: nowrap;
+   height: 54px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   text-align: left;
+   
+ }
 
 .product .box-container{
-   display: flex;
-   flex-wrap: wrap;
-   gap: 1.5rem;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* 4 kutu, her biri 1 fraksiyon genişliğinde */
+   grid-gap: 10px; /* kutular arasındaki boşluk */
+   
 }
 
 .product .box-container .box{

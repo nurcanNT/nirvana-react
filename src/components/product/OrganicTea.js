@@ -41,7 +41,7 @@ export default function OrganicTea() {
                     </a>
                   </div>
                   <img src={element.ThumbImageUrl} alt="" />
-                  <h3>{element.Title}</h3>
+                  <h3 className="card-title">{element.Title}</h3>
                   <div className="stars">
                     <ProductRatings rating={element.Rating} />
                   </div>

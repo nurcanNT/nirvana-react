@@ -7,6 +7,7 @@ import Contact from "./components/contact";
 import Product from "./components/product";
 import Category from "./components/category";
 import Banner from "./components/banner";
+import BannerTea from "./components/bannertea/bannertea"
 import HomeTitle from "./components/HomeTitle";
 import OrganicTea from "./components/product/OrganicTea";
 import OrganicShampo from "./components/product/OrganicShampo";
@@ -22,6 +23,7 @@ function App() {
       <Banner />
       <Category />
       <Product />
+      <BannerTea/>
       <FavoriteList/>
       <Footer />
       <Contact />

@@ -34,7 +34,7 @@ function FavoriteList() {
                       </a>
                     </div>
                     <img src={productData.ThumbImageUrl} alt="" />
-                    <h3>{productData.Title}</h3>
+                    <h3 className="card-title">{productData.Title}</h3>
                     <div className="price">
                       {"$ "}
                       {productData.Price}
