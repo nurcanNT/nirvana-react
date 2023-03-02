@@ -631,6 +631,12 @@ body{
    section{
        padding: 2rem;
    }
+   
+   .product .box-container .box img{/*???*/
+      width: 20rem;
+      height: 20rem;
+      margin-left: 1rem;
+   }
 }
 
 @media(max-width:768px){
