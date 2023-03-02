@@ -713,14 +713,43 @@ body{
     .deal .content .count-down .box span{
        font-size: 1.5rem;
     }
-}
+    .product .box-container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); /* 4 kutu, her biri 1 fraksiyon genişliğinde */
+      grid-gap: 10px; /* kutular arasındaki boşluk */
+      width: 100%;
+   }
+   .product .box-container .box img{/*???*/
+      width: 20rem;
+      height: 20rem;
+      margin-left: 8rem;
+   }
+   section{
+      padding: 3rem;
+   }
+   }
 @media(max-width:326px){
+  
    .newsletter{
        padding: 10rem 1rem;
    }
    
    .newsletter form input .btn{
        padding: 2rem 4rem;
+   }
+   .product .box-container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); /* 4 kutu, her biri 1 fraksiyon genişliğinde */
+      grid-gap: 10px; /* kutular arasındaki boşluk */
+      width: 100%;
+   }
+   .product .box-container .box img{/*???*/
+      width: 20rem;
+      height: 20rem;
+      margin-left: 3rem;
+   }
+   section{
+      padding: 3rem;
    }
 }
 @media(max-width:276px){
