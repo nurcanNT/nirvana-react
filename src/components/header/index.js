@@ -17,7 +17,7 @@ function Header() {
                     <a href="#category">Category</a>
                     <a href="#product">Product</a>
                     <a href="#deal">Deal</a>
-                    <a href="#contact">Contant</a>
+                    <a href="#contact">Contact</a>
                 </nav>
   
                 <div className="icons">

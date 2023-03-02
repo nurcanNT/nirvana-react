@@ -46,7 +46,7 @@ export default function OrganicShampo() {
                     <ProductRatings rating={element.Rating} />
                   </div>
                   <div className="price">
-                    {"$ "}
+                    {" "}
                     {element.Price} <span>{}</span>
                     <a href="#" className="btn">
                       Buy to Amazon

@@ -608,6 +608,41 @@ body{
 }
 
 
+@media screen and (max-width:769px) {
+   #menu-bar .navbar a{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+       position: fixed;
+       top: 75px;
+       right: -350px;
+       width: 300px;
+       height: 100vh;
+       background: rgb(131,58,180);
+       background: linear-gradient(93deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+       box-shadow: 0 55px 60px rgba(255, 166, 0, 0.801);
+       padding: 40px 0 0 10px;
+       transition: 0.3s ease-in-out;
+   }
+
+   #menu-bar .navbar a{
+       margin-bottom: 25px;
+   }
+   
+}
+@media screen and (max-width:941px){
+ 
+   nav{
+       padding: 20px 40px;
+   }
+}
+@media screen and (max-width:859px){
+ 
+   nav{
+       padding: 20px 5px;
+   }
+}
 
 
 
