@@ -9,9 +9,9 @@ import Category from "./components/category";
 import Banner from "./components/banner";
 import BannerTea from "./components/bannertea/bannertea"
 import HomeTitle from "./components/HomeTitle";
-import OrganicTea from "./components/product/OrganicTea";
-import OrganicShampo from "./components/product/OrganicShampo";
 import OrganicSkinCare from "./components/product/OrganicSkinCare";
+import OrganicShampo from "./components/product/OrganicShampo";
+import OrganicTea from "./components/product/OrganicTea";
 import FavoriteList from "./components/favorites/FavoriteList";
 // import FavoritesList from "./components/favorites/FavoritesList";
 

@@ -25,7 +25,7 @@ html{
    scroll-behavior: smooth;
 }
 section{
-   padding: 2rem 9%;
+   padding: 0;
 }
 
 .btn{
@@ -233,6 +233,7 @@ section{
    gap: 2rem;
    flex-wrap: wrap;
    width: 100%;
+   justify-content: center;
 }
 .box img{
    width: 500px;
@@ -252,14 +253,16 @@ section{
    border-radius: .9rem;
    text-align: center;
    padding: 1rem;
-   flex: 1 1 25rem;
+   flex: 0 0 28rem;
+   
 }
 .category .box-container .box img{
-   width: 35rem;
+   width: 200px;
+   height: 250px;
    margin: .5rem 0;
 }
 .category .box-container .box h3{
-   font-size: 3.5rem;
+   font-size: 24px;
    color: var(--black);
 }
 .category .box-container .box p{
@@ -582,234 +585,231 @@ section{
 .footer .credit span{
    color: var(--green);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body{
    height: 200rem;
 }
 
 
-@media screen and (max-width:769px) {
-   #menu-bar .navbar a{
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-       justify-content: flex-start;
-       position: fixed;
-       top: 75px;
-       right: -350px;
-       width: 300px;
-       height: 100vh;
-       background: rgb(131,58,180);
-       background: linear-gradient(93deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-       box-shadow: 0 55px 60px rgba(255, 166, 0, 0.801);
-       padding: 40px 0 0 10px;
-       transition: 0.3s ease-in-out;
-   }
-
-   #menu-bar .navbar a{
-       margin-bottom: 25px;
-   }
-   
-}
-@media screen and (max-width:941px){
- 
-   nav{
-       padding: 20px 40px;
-   }
-}
-@media screen and (max-width:859px){
- 
-   nav{
-       padding: 20px 5px;
-   }
-}
-
-
-
-
-
-
-/* media queries*/
-
-@media(max-width:1200px){
-   html{
-       font-size: 55%;
-    }
-}
-
-@media(max-width:991px){
-   .header-1,
-   .header-2{
-       padding: 2rem;
-   }
-
-   section{
-       padding: 2rem;
-   }
-   
-   .product .box-container .box img{/*???*/
-      width: 20rem;
-      height: 20rem;
-      margin-left: 1rem;
-   }
-}
-
-@media(max-width:768px){
-   #menu-bar{
-       display: initial;
-   }
-   .header-2 .navbar{
-       position: absolute;
-       top: 100%; left: 0; right: 0;
-       background: var(--black);
-       padding: 1rem 2rem ;
-       display: none;
-   }
-/* menu opening active */
-   .header-2 .navbar.active{
-       display: initial;
-   }
-
-   .header-2 .navbar a{
-       font-size: 2.5rem;
-       display: block;
-       text-align: center;
-       background: #fff;
-       padding: 1rem;
-       margin: 1.5rem 0;
-   }
-
-   .home .content{
-       text-align: center;
-   }
-
-   .home .content h3{
-       font-size: 4rem;
-   }
-
-   .deal{
-       background-position: left;
-       padding-left: 9rem;
-    }
-   
-    .deal .content{
-       max-width: 100%;
-       text-align: center;
-    }
-
-    .deal .content .count-down{
-       justify-content: center;
-    }
-
-    .contact form .inputBox input{
-       width: 100%;
-    }
-
-    .newsletter h3{
-       font-size: 2.2rem;
-    }
-}
-
-@media(max-width:450px){
-   html{
-       font-size: 50%;
-    }
-
-    .heading{
-       font-size: 2.5rem;
-    }
-
-    .header-1{
-       flex-flow: column;
-    }
-    .header-1 .search-box-container{
-       width: 100%;
-       margin-top: 2rem;
-    }
-    
-    .deal .content .count-down .box h3{
-       font-size: 4rem;
-    }
-
-    .deal .content .count-down .box span{
-       font-size: 1.5rem;
-    }
-    .product .box-container{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr); /* 4 kutu, her biri 1 fraksiyon genişliğinde */
-      grid-gap: 10px; /* kutular arasındaki boşluk */
+@media(max-width:1660px){
+   #category{
       width: 100%;
    }
-   .product .box-container .box img{/*???*/
-      width: 20rem;
-      height: 20rem;
-      margin-left: 8rem;
-   }
-   section{
-      padding: 3rem;
-   }
-   }
-@media(max-width:326px){
-  
-   .newsletter{
-       padding: 10rem 1rem;
-   }
-   
-   .newsletter form input .btn{
-       padding: 2rem 4rem;
-   }
-   .product .box-container{
-      display: grid;
-      grid-template-columns: repeat(1, 1fr); /* 4 kutu, her biri 1 fraksiyon genişliğinde */
-      grid-gap: 10px; /* kutular arasındaki boşluk */
-      width: 100%;
-   }
-   .product .box-container .box img{/*???*/
-      width: 20rem;
-      height: 20rem;
-      margin-left: 3rem;
-   }
-   section{
-      padding: 3rem;
-   }
-}
-@media(max-width:276px){
-   .deal{
-       padding-right: 6rem;
-   }
-   .newsletter form input .btn{
-       padding: 2rem 3rem;
+   .footer .box-container .box {
+      padding: 1rem 10px;
    }
 }
 
 @media(max-width:1280px){
    #category{
-      width: 140rem;
+      width: 100%;
    }
+}
+@media(max-width: 920px){
+   nav{
+      padding: 20px 40px;
+  }
+  #menu-bar{
+   display: initial;
+}
+.heading{
+   margin-top: 3%;
+}
+.product .box-container .box img {
+   width: 15rem;
+   height: 15rem;
+   margin-left: 3rem;
+}
+.btn{
+   padding: 1rem 3rem;
+}
+.footer .box-container .box {
+   padding: 1rem 11px;
+}
+.header-2 .navbar{
+   position: absolute;
+   top: 100%; left: 0; right: 0;
+   background: var(--black);
+   padding: 1rem 2rem ;
+   display: none;
+}
+/* menu opening active */
+.header-2 .navbar.active{
+   display: initial;
+}
+
+.header-2 .navbar a{
+   font-size: 2.5rem;
+   display: block;
+   text-align: center;
+   background: #fff;
+   padding: 1rem;
+   margin: 1.5rem 0;
+}
+
+.home .content{
+   text-align: center;
+}
+
+.home .content h3{
+   font-size: 4rem;
+}
+
+.deal{
+   background-position: left;
+   padding-left: 9rem;
+}
+
+.deal .content{
+   max-width: 100%;
+   text-align: center;
+}
+
+.deal .content .count-down{
+   justify-content: center;
+}
+
+.contact form .inputBox input{
+   width: 100%;
+}
+
+.newsletter h3{
+   font-size: 2.2rem;
+}
+}
+@media(max-width:700px){
+   #menu-bar .navbar a{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: fixed;
+      top: 75px;
+      right: -350px;
+      width: 300px;
+      height: 100vh;
+      background: rgb(131,58,180);
+      background: linear-gradient(93deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+      box-shadow: 0 55px 60px rgba(255, 166, 0, 0.801);
+      padding: 40px 0 0 10px;
+      transition: 0.3s ease-in-out;
+  }
+
+  #menu-bar .navbar a{
+      margin-bottom: 25px;
+  }
+  
+.product .box-container {
+   display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 4 kutu, her biri 1 fraksiyon genişliğinde */
+  grid-gap: 10px; /* kutular arasındaki boşluk */
+  width: 100%;
+}
+.product .box-container .box img {
+   width: 15rem;
+   height: 15rem;
+   margin-left: 1rem;
+}
+.btn{
+   padding: 1rem 1rem;
+   font-size: 17px;
+}
+.product .box-container .box h3{
+   font-size: 1.5rem;
+}
+.category .box-container .box {
+   flex: 0 0 11rem;
+}
+.category .box-container .box img {
+   width: 135px;
+   height: 200px;
+}
+.category .box-container .box h3 {
+   font-size: 16px;
+}
+.home .content {
+   margin-bottom: 2%;
+}
+.heading{
+   margin-top: 5%;
+}
 }
 
 @media(max-width:415px){
+   html{
+      font-size: 50%;
+   }
+
+   .heading{
+      font-size: 2.5rem;
+   }
+
+   .header-1{
+      flex-flow: column;
+   }
+   .header-1 .search-box-container{
+      width: 100%;
+      margin-top: 2rem;
+   }
+   
+   .deal .content .count-down .box h3{
+      font-size: 4rem;
+   }
+
+   .deal .content .count-down .box span{
+      font-size: 1.5rem;
+   }
+   .product .box-container{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr); /* 4 kutu, her biri 1 fraksiyon genişliğinde */
+     grid-gap: 10px; /* kutular arasındaki boşluk */
+     width: 100%;
+  }
+  .product .box-container .box img{/*???*/
+     width: 15rem;
+     height: 20rem;
+     margin-left: 11rem;
+  }
+  section{
+     padding: 3rem;
+  }
+  .category .box-container .box img {
+   width: 130px;
+   height: 150px;
+  }
    #category{
-      width: 47rem;
+      width: 100%;
+   }
+   .deal{
+      padding-right: 6rem;
+  }
+  .btn{
+   padding: 1rem 2rem;
+  }
+  .newsletter form input .btn{
+      padding: 2rem 3rem;
+  }
+  .newsletter{
+   padding: 10rem 1rem;
+}
+
+.newsletter form input .btn{
+   padding: 2rem 4rem;
+}
+.product .box-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 4 kutu, her biri 1 fraksiyon genişliğinde */
+  grid-gap: 10px; /* kutular arasındaki boşluk */
+  width: 100%;
+}
+section{
+  padding: 3rem;
+}
+.heart .heading-3{
+   font-size: 20px;
+}
+}
+@media(max-width:359px){
+   .product .box-container .box img {
+      margin-left: 3rem;
    }
 }
