@@ -25,6 +25,11 @@ function Category(){
                 <p>Upto 12% off</p>
                 <img src={img4} alt=""/>
                 <a href="#" class="btn">Shop Now</a>
+            </div><div class="box">
+                <h3>Organic Skin Care</h3>
+                <p>Upto 12% off</p>
+                <img src={img4} alt=""/>
+                <a href="#" class="btn">Shop Now</a>
             </div>
         </div>
     </section>
